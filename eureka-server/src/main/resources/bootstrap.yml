@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: eureka-server
+  cloud:
+    config:
+      profile: native
+      uri: http://localhost:8888
